@@ -1,0 +1,5 @@
+discord.py
+discord
+discord.py[voice]
+discord.[voice]
+youtube-dl
