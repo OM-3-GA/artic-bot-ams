@@ -40,6 +40,6 @@ async def Reload(ctx, extension):
 
 for filename in os.listdir(''):
     if filename.endswith('.py'):
-        client.load_extension(f"cogs.{filename[:-3]}")
+        client.load_extension(f"{filename[:-3]}")
 
 client.run('secretAccessKey: process.env.TOKEN')
