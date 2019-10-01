@@ -38,7 +38,7 @@ async def Reload(ctx, extension):
     await ctx.channel.purge(limit=1)
     print(f'Reloaded {extension}.')
 
-for filename in os.listdir('./cogs'):
+for filename in os.listdir(''):
     if filename.endswith('.py'):
         client.load_extension(f"cogs.{filename[:-3]}")
 
